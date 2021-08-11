@@ -1,0 +1,66 @@
+body{
+    margin: 15px;
+}
+.main{
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+}
+.title{
+    position: sticky;
+    top: 0;
+   background-color: red;
+    }
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+  
+   
+  }
+
+.btn{
+    display: inline;
+    background-color: blue;
+    color: white;
+    height: 2rem;
+    border-radius: 5px;
+    border: 0px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: blue
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:blue
+  }
+.form{
+  display: none;
+}
